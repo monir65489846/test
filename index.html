@@ -1,794 +1,958 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" lang="en">
   <head>
-    <title>OUSSAMA RACHID</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>ECM 4 </title>
+    <style>
+      
     
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+      .lawla {
+      min-height : 100vh ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+      }
 
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
     
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
+      
 
-    <link rel="stylesheet" href="css/aos.css">
+      ul.menu {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #f4aaaa;
+        display: flex;
+        justify-content: center;
+        min-height : 10vh ;
+        < !--align-items: center;
+        -->
+      }
 
-    <link rel="stylesheet" href="css/ionicons.min.css">
+      ul.menu li {
+        display: inline-block;
+        margin-right: 10px;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      ul.menu li a {
+        display: block;
+        color: #030015;
+        text-decoration: none;
+        padding: 12px;
+      }
+
+      ul.menu li a:hover {
+        background-color: #00ff24;
+      }
+      
+      
+      
+      
+    /* styles.css */
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    padding: 30px 30px;
+    background-color: red;
+    color: #fff;
+    border: black 6px  solid;
+    border-radius: 200px;
+    cursor: pointer;
+}
+
+#scrollToTopBtn:hover {
+    background-color: green;
+}
+
+ 
+ .ptn {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0 0 0 20px;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.ptn:hover {
+  background-color: #FFC229;
+  box-shadow: #FF6314 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.ptn:active {
+  transform: scale(1.025);
+}
+      
+      
+      
+      
+    </style>
     
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
   </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-	  
-	  
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
-	    <div class="container">
-	      <a class="navbar-brand" href="index.html"><span>O</span> ussama</a>
-	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
-	      </button>
+  
+   <body>
+   <ul  class="menu">
+   <li><a href="#scroll">For verification ECM 4</a></li>  
+   <li><a href="#scroll1">extract domain and remove it 🅽🅴🆆 </a></li>
+   <li><a href="#scroll2">extract emails and count it 🅽🅴🆆 </a></li>
+   <li><a href="#scroll3">extract ipV4</a></li>  
+   <li><a href="#scroll4">extract ipV6</a></li> 
+   
+   <li><a href="#scroll6">profiles for app </a></li> 
+   <li><a href="#scroll7">Remove Empty Lines</a></li> 
+   <li><a href="#scroll8">FOR ME </a></li> 
+   <li><a href="#scroll9">Random Text Generator 🅽🅴🆆 </a></li>
+      <li><a href="#scroll11">Repeat a Word in Textarea</a></li>
+     <li><a href="#scroll10"> Text Generator 🆂🅾🅾🅽 </a></li>
+     
+   </ul>  
+     
+     
+    
+    <button id="scrollToTopBtn">Up</button>
+      
+     
+<script>
+		// script.js
+const scrollToTopBtn = document.getElementById("scrollToTopBtn");
 
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav nav ml-auto">
-	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Accueil</span></a></li>
-	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>A propos</span></a></li>
-	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>CV</span></a></li>
-	          <li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li>
-	          <!-- <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projets</span></a></li> -->
-	          <!-- <li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Blog</span></a></li> -->
-	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
-	        </ul>
-	      </div>
-	    </div>
-	  </nav>
-	  <section class="hero-wrap js-fullheight">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
-          <div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
-          	<div class="text text-center">
-          		<span class="subheading">Bonjour je suis</span>
-		  				<h1>OUSSAMA RACHID</h1>
-			  				<h2> un 
-								  <span
-								     class="txt-rotate"
-								     data-period="2000"
-								     data-rotate='[ "full-stack developer" ]'></span>
-								</h2>
-							</div>
-            </div>
+// Show the button when the user scrolls down 200px from the top of the page
+window.onscroll = function () {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        scrollToTopBtn.style.display = "block";
+    } else {
+        scrollToTopBtn.style.display = "none";
+    }
+};
+
+// Scroll to the top when the button is clicked
+scrollToTopBtn.addEventListener("click", () => {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+});
+
+	</script>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    <div class='lawla ' id="scroll">
+     <h1 > verification </h1>
+      <textarea cols='100' id='valeur3' placeholder='put the result of verification .....' rows='30' style='color: black; background-color: #8ff3f5 ;'></textarea>
+      <br>
+      <button class='ptn' onclick='removeLinesWithoutGmail()'> the result </button>
+      <br>
+    </div>
+     
+     
+    <script src="https://sendeyo.com/get/d/2eea5f1013.js">
+      
+      
+     </script>
+    
+    
+    
+    
+     
+     
+     
+     
+     
+  
+     
+     
+     
+    
+    <div class='lawla ' id="scroll2" >
+      <h1 >Email Address Extractor</h1>
+      <textarea id="inputTextarea" rows="10" cols="50" placeholder="Enter text containing email addresses..."></textarea>
+      <button onclick="extractEmailAddresses()">Extract Email Addresses</button>
+      <h2>Count it :</h2>
+      <textarea id="outputTextarea" rows="5" cols="50"></textarea>
+      <button onclick="countLines()">Count Lines</button>
+      <p id="lineCount">Line count will be displayed here.</p>
           </div>
-        </div>
-      </div>
-      <div class="mouse">
-				<a href="#" class="mouse-icon">
-					<div class="mouse-wheel"><span class="ion-ios-arrow-round-down"></span></div>
-				</a>
-			</div>
-    </section>
+      
+      
+     
+      <script>
+        function extractEmailAddresses() {
+          const inputTextarea = document.getElementById('inputTextarea');
+          const outputTextarea = document.getElementById('outputTextarea');
+          const inputText = inputTextarea.value;
+          // Regular expression to match email addresses
+          const emailRegex = /\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,7}\b/g;
+          // Use match() to find all matching email addresses in the input text
+          const matches = inputText.match(emailRegex);
+          // If matches are found, display them in the output textarea
+          if (matches) {
+            outputTextarea.value = matches.join('\n');
+          } else {
+            outputTextarea.value = 'No email addresses found.';
+          }
+        }
 
-    <section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
-    	<div class="container">
-    		<div class="row d-flex no-gutters">
-    			<div class="col-md-6 col-lg-6 d-flex">
-    				<div class="img-about img d-flex align-items-stretch">
-    					<div class="overlay"></div>
-	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/about.jpg);">
-	    				</div>
-    				</div>
-    			</div>
-    			<div class="col-md-6 col-lg-6 pl-md-5 py-5">
-    				<div class="row justify-content-start pb-3">
-		          <div class="col-md-12 heading-section ftco-animate">
-		          	<h1 class="big">About</h1>
-		            <h2 class="mb-4">profile</h2>
-		            <p>Passionné par l’univers du web et doté d’une grande curiosité. Je me suis 
-															spécialisé dans le développement full-stack et la conception d'applications 
-															web et base de données, même si je suis Autonome sur mon poste tout en 
-															appréciant le travail en équipe avec des collaborateurs sur site ou distants. 
-															Je suis aujourd’hui à la recherche de nouvelles opportunités.</p>
-		            <ul class="about-info mt-4 px-md-0 px-2">
-		            	<li class="d-flex"><span>Name:</span> <span>Oussama Rachid</span></li>
-		            	<li class="d-flex"><span>Date of birth:</span> <span>august 8, 2001</span></li>
-		            	<li class="d-flex"><span>Address:</span> <span>Meknes morocco</span></li>
-		            	<li class="d-flex"><span>Zip code:</span> <span>50000</span></li>
-		            	<li class="d-flex"><span>Email:</span> <span>oussama-rachid@outlook.com</span></li>
-		            	<li class="d-flex"><span>Phone: </span> <span>+212-608299285<span></li>
-		            </ul>
-		          </div>
-		        </div>
-	          <div class="counter-wrap ftco-animate d-flex mt-md-3">
-              <div class="text">
-              	<p class="mb-4">
-	                <!-- <span class="number" data-number="800">0</span>
-	                <span>Project complete</span> -->
-                </p>
-                <p><a href="https://app.luminpdf.com/viewer/632efca75bb23facfb36848f" class="btn btn-primary py-3 px-3">Telecharger CV</a></p>
-              </div>
-	          </div>
-	        </div>
-        </div>
-    	</div>
-    </section>
-    <!-- <section class="ftco-section ftco-partner">
-    	<div class="container">
-    		<div class="row">
-    			<div class="col-sm ftco-animate">
-    				<a href="#" class="partner"><img src="images/downloand.png" class="img-fluid" alt="Colorlib Template"></a>
-    			</div>
-    			<div class="col-sm ftco-animate">
-    				<a href="#" class="partner"><img src="images/partner-2.png" class="img-fluid" alt="Colorlib Template"></a>
-    			</div>
-    			<div class="col-sm ftco-animate">
-    				<a href="#" class="partner"><img src="images/partner-3.png" class="img-fluid" alt="Colorlib Template"></a>
-    			</div>
-    			<div class="col-sm ftco-animate">
-    				<a href="#" class="partner"><img src="images/partner-4.png" class="img-fluid" alt="Colorlib Template"></a>
-    			</div>
-    			<div class="col-sm ftco-animate">
-    				<a href="#" class="partner"><img src="images/partner-5.png" class="img-fluid" alt="Colorlib Template"></a>
-    			</div>
-    		</div>
-    	</div>
-    </section> -->
+        function countLines() {
+          const textArea = document.getElementById('outputTextarea');
+          const lineCountElement = document.getElementById('lineCount');
+          const text = textArea.value;
+          const lines = text.split('\n');
+          const lineCount = lines.length;
+          lineCountElement.textContent = `Line count: ${lineCount}`;
+        }
+      </script>
+    
+   
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+        <br>
+     <br>
+     <br>
+     <br>
+     
+     
+     
+     
+     
+      <div class='lawla ' id="scroll1" >
+    
+        <h1 >texte with domains</h1>
+      
+      
+      
+   <textarea cols='50' id='lwl' placeholder=' d' rows='10'>    </textarea>
+   <button onclick='extractDomains()'>Extract domaine and remove it</button>     
+  <textarea cols='50' id='tani' placeholder=' d' rows='10'>    </textarea>
+  <textarea cols='50' id='talit' placeholder=' d' rows='10'>    </textarea>
 
-    <section class="ftco-section ftco-no-pb goto-here" id="resume-section">
-    	<div class="container">
-    		<div class="row">
-    			<div class="col-md-3">
-				    <nav id="navi">
-					    <ul>
-					      <li><a href="#page-1">Education</a></li>
-					      <li><a href="#page-2">Experience</a></li>
-					      <li><a href="#page-3">Competence</a></li>
-					 
-					    </ul>
-					  </nav>
-					</div>
-					<div class="col-md-9">
-					  <div id="page-1" class= "page one">
-					  	<h2 class="heading">Education</h2>
-					    <div class="resume-wrap d-flex ftco-animate">
-					    	<div class="icon d-flex align-items-center justify-content-center">
-					    		<span class="flaticon-ideas"></span>
-					    	</div>
-					    	<div class="text pl-3">
-		    					<span class="date">2020-2022</span>
-		    					<h2>Diplome du technicien spécialisé</h2>
-		    					<span class="position">Istag BAB TIZIMI</span>
-		    					<p>Diplome du technicien spécialisé en Development informatique avec mention trés bien en option</p>
-	    					</div>
-	    				</div>
-	    				<div class="resume-wrap d-flex ftco-animate">
-	    					<div class="icon d-flex align-items-center justify-content-center">
-					    		<span class="flaticon-ideas"></span>
-					    	</div>
-					    	<div class="text pl-3">
-		    					<span class="date">2018-2019</span>
-		    					<h2>Baccalauréat</h2>
-		    					<span class="position">Lycée anassi</span>
-		    					<p>Baccalaureat en science de la vie et de la terre avec mention assez bien.
-											</p>
-		    				</div>
-	    				</div>
-	    				
-	    		
-					  </div>
-
-							<!--
-								Développeur web | CSPogiciels (Stage) 2021 - 2022
-Eectué un stage de n d’étude d’une durée d’un mois:
--Conception et création du base de données.
--Développement back-end de l’application.
--Test de l’application.
-
-							  -->
-
-					  <div id="page-2" class= "page two">
-					  	<h2 class="heading">Experience</h2>
-					    <div class="resume-wrap d-flex ftco-animate">
-					    	<div class="icon d-flex align-items-center justify-content-center">
-					    		<span class="flaticon-ideas"></span>
-					    	</div>
-					    	<div class="text pl-3">
-		    					<span class="date">2020-present</span>
-		    					<h2>Développeur Full Stack</h2>
-		    					<span class="position">Freelance</span>
-		    					<p>Developpeur d'application web et desktop de gestion pour des petites entreprises </p>
-		    				</div>
-	    				</div>
-	    				<div class="resume-wrap d-flex ftco-animate">
-	    					<div class="icon d-flex align-items-center justify-content-center">
-					    		<span class="flaticon-ideas"></span>
-					    	</div>
-					    	<div class="text pl-3">
-		    					<span class="date">2021-2022</span>
-		    					<h2>	Développeur web</h2>
-		    					<span class="position">CSProgiciel</span>
-		    					<p>
-												Effectué un stage de fin d’étude d’une durée d’un mois au mission de créer une application de gestion des tickets: <br>
-												-Conception et création du base de données. <br>
-												-Développement back-end de l’application. <br>
-												-Test de l’application.</p>
-		    				</div>
-	    				</div>
-	    			
-	    		
-					  </div>
-					  <div id="page-3" class= "page three">
-					  	<h2 class="heading">Competence</h2>
-					  	<div class="row progress-circle mb-5">
-					  		<div class="col-lg-4 mb-4">
-						      <div class="bg-white rounded-lg shadow p-4">
-						        <h2 class="h5 font-weight-bold text-center mb-4">CodeIgniter4</h2>
-
-						        <!-- Progress bar 1 -->
-						        <div class="progress mx-auto" data-value='85'>
-						          <span class="progress-left">
-                        <span class="progress-bar border-primary"></span>
-						          </span>
-						          <span class="progress-right">
-                        <span class="progress-bar border-primary"></span>
-						          </span>
-						          <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-						            <div class="h2 font-weight-bold">85<sup class="small">%</sup></div>
-						          </div>
-						        </div>
-						        <!-- END -->
-
-						        <!-- Demo info -->
-						      
-						        <!-- END -->
-						      </div>
-						    </div>
-
-						    <div class="col-lg-4 mb-4">
-						      <div class="bg-white rounded-lg shadow p-4">
-						        <h2 class="h5 font-weight-bold text-center mb-4">Sql</h2>
-
-						        <!-- Progress bar 1 -->
-						        <div class="progress mx-auto" data-value='90'>
-						          <span class="progress-left">
-                        <span class="progress-bar border-primary"></span>
-						          </span>
-						          <span class="progress-right">
-                        <span class="progress-bar border-primary"></span>
-						          </span>
-						          <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-						            <div class="h2 font-weight-bold">90<sup class="small">%</sup></div>
-						          </div>
-						        </div>
-						        <!-- END -->
-
-						        <!-- Demo info -->
-						     
-						        <!-- END -->
-						      </div>
-						    </div>
+  </div>
+     
+    <script>
+  
+  function extractDomains() {
+  var input = document.getElementById("lwl").value;
+  var pattern = /(?:https?:\/\/)?(?:www\.)?([a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)+)/g;
+  var patterne = /(?:https?:\/\/)?(?:www\.)?([a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)+)/g;
+  var result = input.replace(patterne, "");
+  var matches = input.match(pattern);
 
 
-						    <div class="col-lg-4 mb-4">
-						      <div class="bg-white rounded-lg shadow p-4">
-						        <h2 class="h5 font-weight-bold text-center mb-4">c#</h2>
+   document.getElementById("talit").value = result; 
+  if (matches) {
+    document.getElementById("tani").value = matches.join("\n");
+  } else {
+    document.getElementById("tani").value = "No domains found.";
+  }
+}
+   </script>
 
-						        <!-- Progress bar 1 -->
-						        <div class="progress mx-auto" data-value='95'>
-						          <span class="progress-left">
-                        <span class="progress-bar border-primary"></span>
-						          </span>
-						          <span class="progress-right">
-                        <span class="progress-bar border-primary"></span>
-						          </span>
-						          <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-						            <div class="h2 font-weight-bold">95<sup class="small">%</sup></div>
-						          </div>
-						        </div>
-						        <!-- END -->
+     
+     
+     
+     
+     
+     
+     
+     
+     
+      
+      <div class='lawla ' id="scroll3" >
+        <h1 >Extract all IPv4</h1>
+<textarea cols='50' id='input' placeholder=' put the addresses ip v4' rows='10'>    </textarea>
+<button onclick='extractIP()'>Extract IPv4</button>
+<textarea cols='50' id='valeur11' placeholder='result' rows='10'>    </textarea>
+        
+   </div>
+  
+ <script>
+function extractIP() {
 
-						        <!-- Demo info -->
-						    <!-- C#/Ado.net/Asp.net
-PHP/CodeIgniter4
-Html/CSS3/BootStrap4
-JS/JQuery/AJAX
-Sql Server/MySql
-Merise/Uml -->
-						        <!-- END -->
-						      </div>
-						    </div>
-					  	</div>
-					  	<div class="row">
-					  		<div class="col-md-6 animate-box">
-									<div class="progress-wrap ftco-animate">
-										<h3>C#/Ado.net/Asp.net</h3>
-										<div class="progress">
-										 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="90"
-										  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
-										    <span>90%</span>
-										  	</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6 animate-box">
-									<div class="progress-wrap ftco-animate">
-										<h3>PHP/CodeIgniter4</h3>
-										<div class="progress">
-										 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="85"
-										  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
-										    <span>85%</span>
-										  	</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6 animate-box">
-									<div class="progress-wrap ftco-animate">
-										<h3>Html/CSS3/BootStrap4</h3>
-										<div class="progress">
-										 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="85"
-										  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
-										    <span>85%</span>
-										  	</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6 animate-box">
-									<div class="progress-wrap ftco-animate">
-										<h3>JS/JQuery/AJAX
-										</h3>
-										<div class="progress">
-										 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="95"
-										  	aria-valuemin="0" aria-valuemax="100" style="width:95%">
-										    <span>95%</span>
-										  	</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6 animate-box">
-									<div class="progress-wrap ftco-animate">
-										<h3>Sql Server/MySql
-										</h3>
-										<div class="progress">
-										 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
-										  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
-										    <span>90%</span>
-										  	</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6 animate-box">
-									<div class="progress-wrap ftco-animate">
-										<h3>Merise/Uml</h3>
-										<div class="progress">
-										 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
-										  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
-										    <span>70%</span>
-										  	</div>
-										</div>
-									</div>
-								</div>
-								
-					  	</div>
-					  </div>
-				
-					</div>
-			  </div>
-    	</div>
-    </section>
-
-    <section class="ftco-section" id="services-section">
-    	<div class="container-fluid px-md-5">
-    		<div class="row justify-content-center py-5 mt-5">
-          <div class="col-md-12 heading-section text-center ftco-animate">
-          	<h1 class="big big-2">Services</h1>
-            <h2 class="mb-4">Services</h2>
-            <!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p> -->
-          </div>
-        </div>
-    		<div class="row">
-					<div class="col-md-4 text-center d-flex ftco-animate">
-						<a href="#" class="services-1 shadow">
-							<span class="icon">
-								<i class="flaticon-ux-design"></i>
-							</span>
-							<div class="desc">
-								<h3 class="mb-5">Développement Web: Application Web, Plateforme, ...</h3>
-								<p>
-								Réalisation selon vos besoins et de manière personnalisée, 
-									une application web rapide, intuitive et efficace.
-								</p>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-4 text-center d-flex ftco-animate">
-						<a href="" class="services-1 shadow">
-							<span class="icon">
-								<i class="flaticon-innovation"></i>
-							</span>
-							<div class="desc">
-								<h3 class="mb-5">Développement de Logiciel</h3>
-								<p>Développement de logiciels informatiques adaptés aux besoins de votre entreprise</p>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-4 text-center d-flex ftco-animate">
-						<a href="#" class="services-1 shadow">
-							<span class="icon">
-								<i class="flaticon-idea"></i>
-							</span>
-							<div class="desc">
-								<h3 class="mb-5">Création de Site Internet</h3>
-								<p>
-									Création de site web représente aux yeux de tous, très souvent, votre « vitrine »,
-									 votre carte de visite virtuelle. 
-								</p>
-							</div>
-						</a>
-					</div>
-
-			
-				
-				</div>
-    	</div>
-    </section>
+  var input = document.getElementById("input").value;
+  var pattern = /\b(?:\d{1,3}\.){3}\d{1,3}\b/g;
+  var matches = input.match(pattern);
+  
+  if (matches) {
+    document.getElementById("valeur11").textContent = matches.join("\n");
+  } else {
+    document.getElementById("valeur11").textContent = "No IPv4 addresses found.";
+  }
+}
+</script>
+ 
  
 
-    <!-- <section class="ftco-section ftco-project" id="projects-section">
-    	<div class="container-fluid px-md-0">
-    		<div class="row no-gutters justify-content-center pb-5">
-          <div class="col-md-12 heading-section text-center ftco-animate">
-          	<h1 class="big big-2">Projects</h1>
-            <h2 class="mb-4">Our Projects</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-          </div>
-        </div>
-    		<div class="row no-gutters">
-    			<div class="col-md-4">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-1.jpg);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-	    					<span>Web Design</span>
-	    				</div>
-    				</div>
-  				</div>
-  				<div class="col-md-4">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-2.jpg);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-	    					<span>Web Design</span>
-	    				</div>
-    				</div>
-  				</div>
-
-    			<div class="col-md-4">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-3.jpg);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-	    					<span>Web Design</span>
-	    				</div>
-    				</div>
-    			</div>
-    			<div class="col-md-4">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-4.jpg);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-	    					<span>Web Design</span>
-	    				</div>
-    				</div>
-    			</div>
-    			<div class="col-md-4">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-5.jpg);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-	    					<span>Web Design</span>
-	    				</div>
-    				</div>
-    			</div>
-    			<div class="col-md-4">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-6.jpg);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-	    					<span>Web Design</span>
-	    				</div>
-    				</div>
-    			</div>
-    		</div>
-    	</div>
-    </section> -->
-
-    <!-- <section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
-    	<div class="container-fluid px-md-5">
-				<div class="row d-md-flex align-items-center">
-          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18 shadow">
-              <div class="text">
-                <strong class="number" data-number="100">0</strong>
-                <span>Awards</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18 shadow">
-              <div class="text">
-                <strong class="number" data-number="1200">0</strong>
-                <span>Complete Projects</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18 shadow">
-              <div class="text">
-                <strong class="number" data-number="1200">0</strong>
-                <span>Happy Customers</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18 shadow">
-              <div class="text">
-                <strong class="number" data-number="500">0</strong>
-                <span>Cups of coffee</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-<!-- 
-    <section class="ftco-section" id="blog-section">
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-5">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <h1 class="big big-2">Blog</h1>
-            <h2 class="mb-4">Our Blog</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-          </div>
-        </div>
-        <div class="row d-flex">
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry justify-content-end">
-              <a href="single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
-              </a>
-              <div class="text mt-3 float-right d-block">
-                <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
-                <div class="d-flex align-items-center mb-3 meta">
-	                <p class="mb-0">
-	                	<span class="mr-2">Sept. 12, 2019</span>
-	                	<a href="#" class="mr-2">Admin</a>
-	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-	                </p>
-                </div>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry justify-content-end">
-              <a href="single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
-              </a>
-              <div class="text mt-3 float-right d-block">
-                <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
-                <div class="d-flex align-items-center mb-3 meta">
-	                <p class="mb-0">
-	                	<span class="mr-2">Sept. 12, 2019</span>
-	                	<a href="#" class="mr-2">Admin</a>
-	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-	                </p>
-                </div>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry">
-              <a href="single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
-              </a>
-              <div class="text mt-3 float-right d-block">
-                <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
-                <div class="d-flex align-items-center mb-3 meta">
-	                <p class="mb-0">
-	                	<span class="mr-2">Sept. 12, 2019</span>
-	                	<a href="#" class="mr-2">Admin</a>
-	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-	                </p>
-                </div>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-    <section class="ftco-section ftco-hireme img" style="background-image: url(images/bg_1.jpg)">
-    	<div class="overlay"></div>
-			<div class="container">
-				<div class="row justify-content-center">
-					<div class="col-md-7 ftco-animate text-center">
-						<h2>Je suis <span>disponible</span> à l'embauche</h2>
-						<p class="mb-0"><a href="mailto:info@yoursite.com" class="btn btn-primary py-3 px-5">Hire me</a></p>
-					</div>
-				</div>
-			</div>
-		</section>
-
-    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
-      <div class="container">
-      	<div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <h1 class="big big-2">Contact</h1>
-            <h2 class="mb-4">Contact</h2>
-          </div>
-        </div>
-
-        <div class="row d-flex contact-info mb-5">
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box text-center p-4 shadow">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-map-signs"></span>
-          		</div>
-          		<div>
-	          		<h3 class="mb-4">Addresse</h3>
-		            <p>217 marjane 1, meknes 50000, maroc</p>
-		          </div>
-	          </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box text-center p-4 shadow">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-phone2"></span>
-          		</div>
-          		<div>
-	          		<h3 class="mb-4">Numero de telephone</h3>
-		            <p><a href="tel://+212608299285">+212-608299285</a></p>
-	            </div>
-	          </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box text-center p-4 shadow">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-paper-plane"></span>
-          		</div>
-          		<div>
-	          		<h3 class="mb-4">Courriel</h3>
-		            <p><a href="mailto:info@yoursite.com">oussama-rachi@outlook.com</a></p>
-		          </div>
-	          </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box text-center p-4 shadow">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-globe"></span>
-          		</div>
-          		<div>
-	          		<h3 class="mb-4">Website</h3>
-		            <p><a href="#">r4chido.github.io/porfolio/</a></p>
-	            </div>
-	          </div>
-          </div>
-        </div>
-
-        <!-- <div class="row no-gutters block-9">
-          <div class="col-md-6 order-md-last d-flex">
-            <form action="#" class="bg-light p-4 p-md-5 contact-form">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Name">
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Email">
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Subject">
-              </div>
-              <div class="form-group">
-                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-              </div>
-              <div class="form-group">
-                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
-              </div>
-            </form>
+  
+  
+ 
+     
+     
+  
+  
+  <div class='lawla' id="scroll4" >
+    <h1 >Extract all IPv6</h1>
+<textarea cols='50' id='input1' placeholder=' put the addresses ip v6' rows='10'>    </textarea>
+<button onclick='extractIPv6()'>Extract IPv6</button>
+<textarea cols='50' id='output2' placeholder='result' rows='10'>    </textarea>
+    </div>
+     
+     
+     
+     
+ <script>
+function extractIPv6() {
+  var input = document.getElementById("input1").value;
+  var pattern = /([0-9a-fA-F]{1,4}:){7}[0-9a-fA-F]{1,4}/g;
+  var matches = input.match(pattern);
+  
+  if (matches) {
+    document.getElementById("output2").value = matches.join("\n");
+  } else {
+    document.getElementById("output2").value = "No IPv6 addresses found.";
+  }
+}
+  
+  
+  </script>
+     
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+ 
+    
+     
+     
+     
+     
+     
+     
+     	<div class='lawla' id="scroll8" >
+        <h1 >FOR ME 👑 </h1>  
+		<textarea cols='50' id='valeur2' placeholder=' googlemail and add  mail  ......' rows='30'>    </textarea>
+		<button onclick='ton()'>c ok</button>    
           
-          </div>
+    <label for="password">Pass</label>
+    <input type="password" id="password">
 
-          <div class="col-md-6 d-flex">
-          	<div class="img" style="background-image: url(images/about.jpg);"></div>
-          </div>
-        </div> -->
-      </div>
-    </section>
+</div>
+ 
+
+
+   <script>
+const correctePassword = "+*35s1-j_Vbjd";
+     
+const corrrectePassword = "+*35f1-j_Vbjd";
+     
+const correctePasssword = "ecm4-ecm4";
+     
+const correctePassworde = "+*35sq1-j_Vsdbjd";
+     
+const coorrectePassword = "mounirecm4";
+     
+const ccorrectePassword = "+*3qsd5qsd1-j_Vsqdbjd";
+     
+const correcetePassword = "+*3qsd51-j_Vbjd";
+     
+const correctePaassword = "+*3sqd51-j_Vbjd";
+     
+const correctePasswword = "+*3qsd51-sdj_Vbqsjd";
+     
+const correctePasswoord = "+*3qsd51-j_Vbjd";
+
+
+const correctPassword = "sddff";
+     
+    
+
+        function ton() {
+            const enteredPassword = document.getElementById('password').value;
+            const textArea = document.getElementById('textArea');
+          
+          
+          
+			  function clearTextarea() {
+            password.value = '';
+        }
+        // Set an interval to clear the textarea every 5 seconds (5000 milliseconds)
+        setInterval(clearTextarea, 9000);
+          
+          
+          
+
+            if (enteredPassword === correctPassword) {
+                // Password is correct
+document.getElementById("valeur2").value=document.getElementById("valeur2").value.replace(/\"/g,"").replace(/#EANF#/g,"").replace(/#/g, "").replace(/@gmail.com/g,"");
+document.getElementById("valeur2").value=document.getElementById("valeur2").value.replace(/@googlemail.com/g,"").replace(/^\s*\n/gm, "").replace(/ /g,"").replace(/\./g, "");
+document.getElementById("valeur2").value=document.getElementById("valeur2").value.replace(/^\s*\n/gm, "").replace(/$/gm,"@gmail.com");
+            } else {
+                // Password is incorrect
+                alert("Password is incorrect. Please try again.");
+            }
+          
+        }
+    </script>
+     
+     
+        
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     <div class='lawla' id="scroll6" >
+       <h1 >for application </h1>  
+       
+        <button onclick='pro()'>🟡 Profile to app </button>
+     <textarea cols='200' id='valeur4' rows='10'>    </textarea>
+    
+       </div>
+
+<script>
+function pro() {
+  document.getElementById("valeur4").value=document.getElementById("valeur4").value.replace(/\n/g,",").replace(/ /g,"").replace(/#EANF#/g,"");
+  
+  //document.getElementById("valeur4").value=document.getElementById("valeur4").value.replace(/\d$/, '');
+ 
+  //  document.getElementById("valeur1").value=document.getElementById("valeur1").value.replace(/^\s*\n/gm, "").replace(/ /g,"").replace(/ /g,"");
+  //  document.getElementById("valeur1").value=document.getElementById("valeur1").value.replace(/\"/g,"").replace(/ /g,"").replace(/@gmail.com/g,"");
+}
+</script>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+<div class='lawla'id="scroll7" >
+  <h1>Remove Empty Lines </h1>
+
+    <label for="valeur7">Enter Text:</label>
+    <textarea id="valeur7" rows="40" cols="60"></textarea>
+
+    <button onclick="removeEmptyLines()">Remove Empty Lines</button>
+
+</div>
+     
+
+
+
+    <script>
+        function removeEmptyLines() {
+            const textarea = document.getElementById('valeur7');
+            const text = textarea.value;
+
+            // Split the text into lines
+            const lines = text.split('\n');
+
+            // Filter out empty lines
+            const nonEmptyLines = lines.filter(line => line.trim() !== '');
+
+            // Join the non-empty lines back together with line breaks
+            const newText = nonEmptyLines.join('\n');
+
+            // Set the modified text back in the textarea
+            textarea.value = newText;
+        }
+    </script>
+     
+     
+     
+     
+     
+     
+     
+     
+    <div class='lawla'id="scroll9" >
+      <h1>Generator</h1>
+    <button onclick="generateRandomLines()">Generate numbers</button>
+	<button onclick="okin()">Generate letters Uppercase </button>
+	<button onclick="okine()">Generate letters lowercase </button>
+	<button onclick="okinee()">Generate symbols</button>
+       <button onclick="okiz()">Generate ALL</button>
+	   <button onclick="addCurlyBraces()">Add {} </button>
+	<button onclick="addHyphens()">Add -</button>
+       <textarea id="randomText" rows="20" cols="50" readonly></textarea>
+
+       
+      
+      
+        <label for="numParagraphs">Number of lines:</label>
+    <input type="number" id="numParagraphs" value="4" min="1">
+   <label for="numSentences">Number of Sentences per Paragraph:</label>
+    <input type="number" id="numSentences" value="6" min="1">
+    <button onclick="generateRandomText()">Generate Random Text</button>
+    <textarea id="textArea" rows="10" cols="200" readonly></textarea>
+       
+       
+       
+       
+	</div>
+    
+    
+
+    <script>
+        function generateRandomLines() {
+            // Get the reference to the textarea element
+            var textarea = document.getElementById('randomText');
+            
+            // Number of random lines to generate
+            var numLines = 9000; // You can change this number
+            
+            // Array of possible characters for random text
+            var characters = '0123456789';
+            
+            // Initialize the variable to store the random lines
+            var randomLines = '';
+
+            for (var i = 0; i < numLines; i++) {
+                var randomLine = '';
+                // Generate a random line of text (e.g., 30 characters)
+                for (var j = 0; j < 36; j++) {
+                    var randomChar = characters.charAt(Math.floor(Math.random() * characters.length));
+                    randomLine += randomChar;
+                }
+                // Add a newline character at the end of each line
+                randomLines += randomLine + '\n';
+            }
+
+            // Set the generated random lines in the textarea
+            textarea.value = randomLines;
+        }
 		
+	 
+      
+      
+      
+      
+      
+      
+        function okin() {
+            // Get the reference to the textarea element
+            var textarea = document.getElementById('randomText');
+            
+            // Number of random lines to generate
+            var numLines = 9000; // You can change this number
+            
+            // Array of possible characters for random text
+            var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+            
+            // Initialize the variable to store the random lines
+            var randomLines = '';
 
-    <footer class="ftco-footer ftco-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">A propos</h2>
-              <p>Je me suis spécialisé dans le développement full-stack et la conception d'applications 
-															web et base de données, avec une experience de plus de 3 ans dans le domaine.</p>
-              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                <li class="ftco-animate"><a target="_self" href="https://www.linkedin.com/in/oussama-rachid-680684230/"><span class="icon-linkedin"></span></a></li>
-                <li class="ftco-animate"><a href="https://github.com/R4CHIDO"><span class="icon-github"></span></a></li>
-                <li class="ftco-animate"><a href="https://www.facebook.com/profile.php?id=100005669025446"><span class="icon-facebook"></span></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4 ml-md-4">
-              <h2 class="ftco-heading-2">Liens</h2>
-              <ul class="list-unstyled">
+            for (var i = 0; i < numLines; i++) {
+                var randomLine = '';
+                // Generate a random line of text (e.g., 30 characters)
+                for (var j = 0; j < 36; j++) {
+                    var randomChar = characters.charAt(Math.floor(Math.random() * characters.length));
+                    randomLine += randomChar;
+                }
+                // Add a newline character at the end of each line
+                randomLines += randomLine + '\n';
+            }
 
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Accueil</a></li>
-                <li><a href="#about-section"><span class="icon-long-arrow-right mr-2"></span>A propos</a></li>
-                <li><a href="#resume-section"><span class="icon-long-arrow-right mr-2"></span>CV</a></li>
-                <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Services</a></li>
-                <li><a href="#contact-section"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Services</h2>
-              <ul class="list-unstyled">
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Développement Web: Application Web, Plateforme, ...</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Développement de Logiciel</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Création de Site Internet</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-            	<h2 class="ftco-heading-2">vous avez des questions?</h2>
-            	<div class="block-23 mb-3">
-	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">217 marjane 1, meknes 50000, maroc</span></li>
-	                <li><a href="tel://+212608299285"><span class="icon icon-phone"></span><span class="text">+212-608299285</span></a></li>
-	                <li><a href="mailto:info@yoursite.com"><span class="icon icon-envelope"></span><span class="text">oussama-rachid@outlook.com</span></a></li>
-	              </ul>
-	            </div>
-            </div>
-          </div>
-        </div>
-        <!-- <div class="row"> -->
-          <!-- <div class="col-md-12 text-center"> -->
+            // Set the generated random lines in the textarea
+            textarea.value = randomLines;
+        }
+		
+		
+              
+              
+              
+        function okine() {
+            // Get the reference to the textarea element
+            var textarea = document.getElementById('randomText');
+            
+            // Number of random lines to generate
+            var numLines = 9000; // You can change this number
+            
+            // Array of possible characters for random text
+            var characters = 'abcdefghijklmnopqrstuvwxyz';
+            
+            // Initialize the variable to store the random lines
+            var randomLines = '';
 
-            <!-- <p>Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  <!-- Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> -->
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-          <!-- </div> -->
-        </div>
-      </div>
-    </footer>
+            for (var i = 0; i < numLines; i++) {
+                var randomLine = '';
+                // Generate a random line of text (e.g., 30 characters)
+                for (var j = 0; j < 36; j++) {
+                    var randomChar = characters.charAt(Math.floor(Math.random() * characters.length));
+                    randomLine += randomChar;
+                }
+                // Add a newline character at the end of each line
+                randomLines += randomLine + '\n';
+            }
+
+            // Set the generated random lines in the textarea
+            textarea.value = randomLines;
+        }
+		
+		
+            
+            
+            
+            
+            
+        function okiz() {
+            // Get the reference to the textarea element
+            var textarea = document.getElementById('randomText');
+            
+            // Number of random lines to generate
+            var numLines = 9000; // You can change this number
+            
+            // Array of possible characters for random text
+            var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+            
+            // Initialize the variable to store the random lines
+            var randomLines = '';
+
+            for (var i = 0; i < numLines; i++) {
+                var randomLine = '';
+                // Generate a random line of text (e.g., 30 characters)
+                for (var j = 0; j < 36; j++) {
+                    var randomChar = characters.charAt(Math.floor(Math.random() * characters.length));
+                    randomLine += randomChar;
+                }
+                // Add a newline character at the end of each line
+                randomLines += randomLine + '\n';
+            }
+
+            // Set the generated random lines in the textarea
+            textarea.value = randomLines;
+        }
+		
+		
+           
+           
+           
+           
+           
+           
+           
+           
+           
+        function okinee() {
+            // Get the reference to the textarea element
+            var textarea = document.getElementById('randomText');
+            
+            // Number of random lines to generate
+            var numLines = 9000; // You can change this number
+            
+            // Array of possible characters for random text
+            var characters = '↓→↔←▲▼¶◄↕‼¶§▬☺☻♥♦♣♠•◘○◙♂♀♪♫☼►/*-+"#❤❥웃유♋☮✌☏☢☠✔☑♚▲♪฿Ɖ⛏♥❣♂♀☿👍✍✉☣☤✘☒♛▼♫⌘⌛¡♡ღツ☼☁❅♾️✎©®™Σ✪✯☭➳Ⓐ✞℃℉°✿⚡☃☂✄¢€£∞✫★☯✡☪';
+            
+            // Initialize the variable to store the random lines
+            var randomLines = '';
+
+            for (var i = 0; i < numLines; i++) {
+                var randomLine = '';
+                // Generate a random line of text (e.g., 30 characters)
+                for (var j = 0; j < 36; j++) {
+                    var randomChar = characters.charAt(Math.floor(Math.random() * characters.length));
+                    randomLine += randomChar;
+                }
+                // Add a newline character at the end of each line
+                randomLines += randomLine + '\n';
+            }
+
+            // Set the generated random lines in the textarea
+            textarea.value = randomLines;
+        }
+		
+	
+             
+             
+             
+             
+             
+             
+             
+             
+             
+		    function addCurlyBraces() {
+            const textarea = document.getElementById('randomText');
+            const text = textarea.value;
+            
+            // Split the text into lines
+            const lines = text.split('\n');
+            
+            // Process each line and add curly braces
+            const linesWithBraces = lines.map(line => `{${line}}`);
+            
+            // Join the lines back together with line breaks
+            const newText = linesWithBraces.join('\n');
+            
+            // Set the modified text back in the textarea
+            textarea.value = newText;
+        }
+ 
+      
+      
+      
+      
+      
+		 function addHyphens() {
+            const textarea = document.getElementById('randomText');
+            const text = textarea.value;
+            
+            // Split the text into lines
+            const lines = text.split('\n');
+            
+            // Process each line and add hyphens every 6 characters
+            const linesWithHyphens = lines.map(line => {
+                let modifiedLine = '';
+                for (let i = 0; i < line.length; i++) {
+                    modifiedLine += line[i];
+                    if ((i + 1) % 4 === 0) {
+                        modifiedLine += '-';
+                    }
+                }
+                return modifiedLine;
+            });
+            
+            // Join the lines back together with line breaks
+            const newText = linesWithHyphens.join('\n');
+            
+            // Set the modified text back in the textarea
+            textarea.value = newText;
+        }
+          
+          
+          
+          
+          
+        function generateRandomText() {
+            const numParagraphs = parseInt(document.getElementById('numParagraphs').value);
+            const numSentences = parseInt(document.getElementById('numSentences').value);
+            const textArea = document.getElementById('textArea');
+
+            const paragraphs = generateParagraphs(numParagraphs, numSentences);
+            textArea.value = paragraphs.join('\n\n');
+        }
+      </script>
+      
+      
+      
+      
+      
+      
+
+	
+	<script>
+        function generateParagraphs(numParagraphs, numSentences) {
+            const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+            const sentences = [];
+
+            for (let p = 0; p < numParagraphs; p++) {
+                const paragraph = [];
+
+                for (let s = 0; s < numSentences; s++) {
+                    const sentenceLength = Math.floor(Math.random() * 10) + 5; // Random sentence length
+                    let sentence = '';
+
+                    for (let i = 0; i < sentenceLength; i++) {
+                        const randomIndex = Math.floor(Math.random() * characters.length);
+                        sentence += characters.charAt(randomIndex);
+                    }
+
+                    sentence += '. '; // Add a period and space at the end
+                    paragraph.push(sentence);
+                }
+
+                sentences.push(paragraph.join(' '));
+            }
+
+            return sentences;
+        }
+    </script>
+     
+     
+
+
+
+
+     
+     
+     
+     
+     
+     <div class='lawla'id="scroll11" >
+
+
+    <h1>Repeat a Word in Textarea</h1>
+
+    <label for="wordToRepeat">Word to Repeat:</label>
+    <input type="text" id="wordToRepeat" value="10 session lakhrin ">
     
-  
+    <label for="numRepeats">Number of Repeats:</label>
+    <input type="number" id="numRepeats" value="360" min="1">
 
-  <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+    <button onclick="repeatWord()">Repeat Word</button>
 
+    <br>
+    <textarea id="textArea1" rows="10" cols="50" readonly></textarea>
+</div>
+    <script>
+        function repeatWord() {
+            const word = document.getElementById('wordToRepeat').value;
+            const numRepeats = parseInt(document.getElementById('numRepeats').value);
+            const textArea = document.getElementById('textArea1');
 
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/scrollax.min.js"></script>
-  
-  <script src="js/main.js"></script>
+            const repeatedText = repeatString(word, numRepeats);
+            textArea.value = repeatedText;
+        }
+
+        function repeatString(str, num) {
+            return new Array(num + 1).join(str + '\n');
+        }
+    </script>
     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+       
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+      
   </body>
 </html>
