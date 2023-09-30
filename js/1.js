@@ -1,4 +1,4 @@
-  function removeLinesWithoutGmail() {
+document.getElementById("myBtn").onclick = function removeLinesWithoutGmail() {
         document.getElementById("valeur3").value = document.getElementById("valeur3").value.replace(/\"/g, "").replace(/ /g, "").replace(/#EANF#/g, "");
         document.getElementById("valeur3").value = document.getElementById("valeur3").value.replace(/^\s*\n/gm, "").replace(/ /g, "").replace(/,/g, "	").replace(/:/g, "	");
         document.getElementById("valeur3").value = document.getElementById("valeur3").value.replace(/boite-oki	/g, "")
@@ -28,4 +28,4 @@
         });
         // Join the filtered lines and update the second text area
         textArea1.value = filteredLines1.join('\n');
-      }
+      } 
