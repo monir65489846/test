@@ -1,4 +1,4 @@
-﻿ function processFiles02() {
+﻿ function myBtn21() {
       const fileInput02 = document.getElementById('fileInput02');
       const combinedContent02 = document.getElementById('combinedContent02');
       const lineCountElement = document.getElementById('lineCount02');
